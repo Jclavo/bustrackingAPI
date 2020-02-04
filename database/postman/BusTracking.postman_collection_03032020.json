@@ -1,0 +1,177 @@
+{
+	"variables": [],
+	"info": {
+		"name": "BusTracking",
+		"_postman_id": "ef5ac3e8-2314-9710-9ab9-10b74c6bbd25",
+		"description": "This is for BusTracking Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register User",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/register",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "jose clavo",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "jc@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "c_password",
+							"value": "123",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Register User (Server)",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/register",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "jose clavo",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "jc@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "c_password",
+							"value": "123",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Login user",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/login",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "jc@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Login user (Server)",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/login",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "jc@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get User Information",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/getUserInformation",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer TXuMVriPbRdgUyjBBcfPdQ2ZIpfpia9u1MwPNVpxPIIWJEFn8lhHOAHE4nikcfRx9ohrKXuVCyMUT6Or",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get User Information (Server)",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/getUserInformation",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer TXuMVriPbRdgUyjBBcfPdQ2ZIpfpia9u1MwPNVpxPIIWJEFn8lhHOAHE4nikcfRx9ohrKXuVCyMUT6Or",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
